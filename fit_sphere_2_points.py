@@ -11,10 +11,6 @@ def fit_sphere_2_points(array):
 				specified above.
 	- C     : 1-by-3 vector specifying the centroid of the sphere. 
 				C=nan(1,3) when the sphere is undefined, as specified above.
-<<<<<<< HEAD
-=======
-
->>>>>>> b07c669823c0f2fe0883c8c6ce69c987f1ded81a
 	Matlab code author: Anton Semechko (a.semechko@gmail.com)
 	Date: Dec.2014"""
 
@@ -149,7 +145,3 @@ if __name__ == "__main__":
 		print(i, array, sep="\n")
 		R, C = fit_sphere_2_points(array)
 		print(R, C, sep="\n")
-<<<<<<< HEAD
-=======
-		
->>>>>>> b07c669823c0f2fe0883c8c6ce69c987f1ded81a
