@@ -8,6 +8,10 @@ def exact_min_bound_sphere_3D(array):
 	"""
  Compute exact minimum bounding sphere of a 3D point cloud (or a
  triangular surface mesh) using Welzl's algorithm.
+<<<<<<< HEAD
+=======
+
+>>>>>>> b07c669823c0f2fe0883c8c6ce69c987f1ded81a
    - X     : M-by-3 list of point co-ordinates or a triangular surface
 			 mesh specified as a TriRep object.
    - R     : radius of the sphere.
@@ -15,9 +19,17 @@ def exact_min_bound_sphere_3D(array):
    - Xb    : subset of X, listing K-by-3 list of point coordinates from
 			 which R and C were computed. See function titled
 			 'FitSphere2Points' for more info.
+<<<<<<< HEAD
  REREFERENCES:
  [1] Welzl, E. (1991), 'Smallest enclosing disks (balls and ellipsoids)',
 	 Lecture Notes in Computer Science, Vol. 555, pp. 359-370
+=======
+
+ REREFERENCES:
+ [1] Welzl, E. (1991), 'Smallest enclosing disks (balls and ellipsoids)',
+	 Lecture Notes in Computer Science, Vol. 555, pp. 359-370
+
+>>>>>>> b07c669823c0f2fe0883c8c6ce69c987f1ded81a
  Matlab code author: Anton Semechko (a.semechko@gmail.com)
  Date: Dec.2014"""
 
